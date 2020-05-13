@@ -1,0 +1,51 @@
+body{
+    background-color: lightgray;
+}
+.imageicon{
+    
+    list-style-type:none;
+    list-style-image:url(add.gif) ; 
+    border: 5px solid black;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+.imageicon li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    border: 1px solid black;
+    width: 100%;
+}
+.roman{
+    list-style-type:upper-roman;
+}
+.smallroman>li{
+    list-style-type: lower-roman;
+}
+.empha{
+    text-emphasis: unset;
+}
+span{
+    font-style: italic;
+    
+}
+span{
+    color: red;
+}
+.underlin{
+    text-decoration: underline;
+    color: blue;
+    /* text-align: center; */
+}
+#dark{
+    text-decoration:underline;
+    color: red;
+    text-align: center;
+}
+.blu{
+    color: blue;
+    text-decoration: underline;
+    /* text-align: center; */
+}
